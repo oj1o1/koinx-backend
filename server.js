@@ -112,7 +112,7 @@ app.get('/deviation', async (req, res) => {
     }
 });
 
-// Start the Server
+// Starting the Server
 const PORT = 3000;
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
